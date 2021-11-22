@@ -54,78 +54,25 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 30px 20px;
-  background-color: #2b3034;
 }
 .layout_header {
   margin-bottom: 30px;
   text-align: center;
-  color: #fff;
-  background-color: #23272a;
-  padding: 1px;
-  font-size: 1.6rem;
 }
 
 /* Begin styling the report items here! */
 .reports {
-  font-family: "Roboto", sans-serif;
   display: grid;
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  background-color: #2b3034;
 }
-
-h1.layout_title {
-  font-family: "Roboto", sans-serif;
-  margin: 10px 0;
-}
-
-.reports_item {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-
-.reports_cover {
-  padding-bottom: 10px;
-}
-
-.reports a {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1rem;
-  align-items: center;
-}
-
-.reports span {
-  color: #828486;
-  font-size: 0.8rem;
-}
-
-h3.reports_title {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-footer {
-  background-color: #23272a;
-  text-align: center;
-  padding: 5px;
-}
-
-footer.reports_docs {
-  padding: 10px;
-}
-
-
 /* media queries begin */
 
 @media (max-width: 928px) {
   .reports a {
-    font-size: .8rem;
+    font-size: 0.75rem;
   }
   .layout_inner {
     padding: 30px 10px;
