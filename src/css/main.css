@@ -68,6 +68,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+.reports span {
+    color: #8A8C8D;
+}
 /* media queries begin */
 
 @media (max-width: 928px) {
